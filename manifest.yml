@@ -1,0 +1,6 @@
+---
+applications:
+- name: all-the-clouds-cf-java
+  instances: 1
+  host: all-the-clouds-cf-java-${random-word}
+  path: target/all-the-clouds-cf-java-0.0.1-SNAPSHOT.jar
