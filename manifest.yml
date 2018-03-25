@@ -2,5 +2,5 @@
 applications:
 - name: all-the-clouds-cf-java
   instances: 1
-  host: all-the-clouds-cf-java-${random-word}
+  host: all-the-clouds-cf-java
   path: target/all-the-clouds-cf-java-0.0.1-SNAPSHOT.jar
