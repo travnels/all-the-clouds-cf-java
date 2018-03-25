@@ -9,7 +9,7 @@ public class ColorController {
 	@RequestMapping("/")
     @ResponseBody
 	JsonColorResponse home() {
-		return new JsonColorResponse("grey");
+		return new JsonColorResponse("lightgrey");
 	}
 
 	public static void main(String[] args) throws Exception {
